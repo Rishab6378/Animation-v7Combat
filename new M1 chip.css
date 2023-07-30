@@ -1,0 +1,1573 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body {
+    background-color: rgb(0, 22, 26);
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 246px 246px 246px;
+}
+
+.tray1 {
+    background-color: rgb(0, 22, 26);
+    width: 100%;
+    height: 100%;
+    background-image: url("m5.jpg");
+    background-size: cover;
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tray2 {
+    background-color: rgb(0, 22, 26);
+    width: 100%;
+    height: 100%;
+    background-image: url("m2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tray3 {
+    background-color: rgb(0, 22, 26);
+    width: 100%;
+    height: 100%;
+    background-image: url("m14.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tray4 {
+    background-color: rgb(0, 22, 26);
+    width: 100%;
+    height: 100%;
+    background-image: url("m10.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: difference;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tray5 {
+    background-color: rgb(0, 22, 26);
+    width: 100%;
+    height: 100%;
+    background-image: url("m9.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tray6 {
+    background-color: rgb(0, 22, 26);
+    width: 100%;
+    height: 100%;
+    background-image: url("m28.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tray7 {
+    background-color: rgb(0, 22, 26);
+    width: 100%;
+    height: 100%;
+    background-image: url("m32.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tray8 {
+    background-color: rgb(0, 22, 26);
+    width: 100%;
+    height: 100%;
+    background-image: url("m21.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tray9 {
+    background-color: rgb(0, 22, 26);
+    width: 100%;
+    height: 100%;
+    background-image: url("m13.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tray10 {
+    background-color: rgb(0, 22, 26);
+    width: 100%;
+    height: 100%;
+    background-image: url("m39.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tray11 {
+    background-color: rgb(0, 22, 26);
+    width: 100%;
+    height: 100%;
+    background-image: url("m29.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tray12 {
+    background-color: rgb(0, 22, 26);
+    width: 100%;
+    height: 100%;
+    background-image: url("m19.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.tray13 {
+    background-color: rgb(0, 22, 26);
+    width: 100%;
+    height: 100%;
+    background-image: url("m22.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tray14 {
+    background-color: rgb(0, 22, 26);
+    width: 100%;
+    height: 100%;
+    background-image: url("m40.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tray15 {
+    background-color: rgb(0, 22, 26);
+    width: 100%;
+    height: 100%;
+    background-image: url("m31.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.tray16 {
+    background-color: rgb(0, 22, 26);
+    width: 100%;
+    height: 100%;
+    background-image: url("m42.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tray17 {
+    background-color: rgb(0, 22, 26);
+    width: 100%;
+    height: 100%;
+    background-image: url("m23.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tray18 {
+    background-color: rgb(0, 22, 26);
+    width: 100%;
+    height: 100%;
+    background-image: url("m25.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tray19 {
+    background-color: rgb(0, 22, 26);
+    width: 100%;
+    height: 100%;
+    background-image: url("m37.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tray20 {
+    background-color: rgb(0, 22, 26);
+    width: 100%;
+    height: 100%;
+    background-image: url("m43.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tray21 {
+    background-color: rgb(0, 22, 26);
+    width: 100%;
+    height: 100%;
+    background-image: url("m30.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.tray22 {
+    background-color: rgb(0, 22, 26);
+    width: 100%;
+    height: 100%;
+    background-image: url("m26.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tray23 {
+    background-color: rgb(0, 22, 26);
+    width: 100%;
+    height: 100%;
+    background-image: url("m7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: hard-light;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tray24 {
+    background-color: rgb(0, 22, 26);
+    width: 100%;
+    height: 100%;
+    background-image: url("m17.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.tray25 {
+    background-color: rgb(0, 22, 26);
+    width: 100%;
+    height: 100%;
+    background-image: url("m11.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tray26 {
+    background-color: rgb(0, 22, 26);
+    width: 100%;
+    height: 100%;
+    background-image: url("m45.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tray27 {
+    background-color: rgb(0, 22, 26);
+    width: 100%;
+    height: 100%;
+    background-image: url("m27.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tray28 {
+    background-color: rgb(0, 22, 26);
+    width: 100%;
+    height: 100%;
+    background-image: url("m33.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tray29 {
+    background-color: rgb(0, 22, 26);
+    width: 100%;
+    height: 100%;
+    background-image: url("m36.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tray30 {
+    background-color: rgb(0, 22, 26);
+    width: 100%;
+    height: 100%;
+    background-image: url("m12.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.along1 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: one;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes one {
+    from {
+        background-color: rgb(0, 22, 26);
+        transform: rotateY(0deg);
+    }
+
+    to {
+        background-color: transparent;
+        transform: rotateY(180deg);
+    }
+}
+
+.along2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: two;
+    animation-duration: 1s;
+    animation-delay: 2.1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes two {
+    from {
+        background-color: rgb(0, 22, 26);
+        transform: rotateY(0deg);
+    }
+
+    to {
+        background-color: transparent;
+        transform: rotateY(-180deg);
+    }
+}
+
+.along3 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: three;
+    animation-duration: 1s;
+    animation-delay: 2.2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes three {
+    from {
+        background-color: rgb(0, 22, 26);
+        transform: rotateY(0deg);
+    }
+
+    to {
+        background-color: transparent;
+        transform: rotateY(-270deg);
+    }
+}
+
+.along4 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: four;
+    animation-duration: 1s;
+    animation-delay: 2.3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes four {
+    from {
+        background-color: rgb(0, 22, 26);
+    }
+
+    to {
+        background-color: transparent;
+        transform: rotateY(270deg);
+    }
+}
+
+.gym1,
+.gym3 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: gym1;
+    animation-duration: 1s;
+    animation-delay: 6.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes gym1 {
+    0% {
+        background-color: rgb(0, 22, 26);
+    }
+
+    50% {
+        background-color: rgb(0, 22, 26);
+        transform: rotateY(180deg);
+    }
+
+    100% {
+        background-color: greenyellow;
+        /* background-color: transparent; */
+        transform: rotateY(270deg);
+    }
+}
+
+.gym2,
+.gym4 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: gym2;
+    animation-duration: 1s;
+    animation-delay: 6.4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes gym2 {
+    0% {
+        background-color: rgb(0, 22, 26);
+    }
+
+    50% {
+        background-color: rgb(0, 22, 26);
+        transform: rotateY(180deg);
+    }
+
+    100% {
+        background-color: greenyellow;
+        /* background-color: transparent; */
+        transform: rotateY(270deg);
+    }
+}
+
+.gone1,
+.gone4,
+.care2,
+.care3 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: gone1;
+    animation-duration: 1s;
+    animation-delay: 6.3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes gone1 {
+    0% {
+        background-color: rgb(0, 22, 26);
+    }
+
+    50% {
+        background-color: rgb(0, 22, 26);
+        transform: rotateY(180deg);
+    }
+
+    100% {
+        background-color: transparent;
+        transform: rotateY(270deg);
+    }
+}
+
+.gone2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: g2;
+    animation-duration: 1s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes g2 {
+    from {
+        background-color: rgb(0, 22, 26);
+    }
+
+    to {
+        background-color: transparent;
+    }
+}
+
+.gone3 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: g3;
+    animation-duration: 1s;
+    animation-delay: 3.1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes g3 {
+    from {
+        background-color: rgb(0, 22, 26);
+    }
+
+    to {
+        background-color: transparent;
+    }
+}
+
+.chip1,
+.chip4 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: c1;
+    animation-duration: 1s;
+    animation-delay: 2.8s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes c1 {
+    from {
+        background-color: rgb(0, 22, 26);
+    }
+
+    to {
+        background-color: transparent;
+        transform: rotateX(180deg);
+    }
+}
+
+.chip2,
+.chip3 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: c2;
+    animation-duration: 1s;
+    animation-delay: 2.9s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes c2 {
+    from {
+        background-color: rgb(0, 22, 26);
+    }
+
+    to {
+        background-color: transparent;
+        transform: rotateY(180deg);
+    }
+}
+
+.com1 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: com1;
+    animation-duration: 1s;
+    animation-delay: 6.1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes com1 {
+    0% {
+        background-color: rgb(0, 22, 26);
+    }
+
+    50% {
+        background-color: rgb(0, 22, 26);
+        transform: rotateY(180deg);
+    }
+
+    100% {
+        background-color: transparent;
+        transform: rotateY(270deg);
+    }
+}
+
+.com2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: clear;
+    animation-duration: 1s;
+    animation-delay: 3.7s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes clear {
+    from {
+        background-color: rgb(0, 22, 26);
+    }
+
+    to {
+        background-color: transparent;
+    }
+}
+
+.com3 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: cold;
+    animation-duration: 1s;
+    animation-delay: 3.6s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes cold {
+    from {
+        background-color: rgb(0, 22, 26);
+    }
+
+    to {
+        background-color: transparent;
+    }
+}
+
+.com4 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: com4;
+    animation-duration: 1s;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes com4 {
+    0% {
+        background-color: rgb(0, 22, 26);
+    }
+
+    50% {
+        background-color: rgb(0, 22, 26);
+        transform: rotateY(180deg);
+    }
+
+    100% {
+        background-color: transparent;
+        transform: rotateY(270deg);
+    }
+}
+
+.alert1 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: alert;
+    animation-duration: 1s;
+    animation-delay: 3.8s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes alert {
+    from {
+        background-color: rgb(0, 22, 26);
+    }
+
+    to {
+        background-color: transparent;
+    }
+}
+
+
+.alert2,
+.byte2,
+.byte4,
+.dive2,
+.dive4 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: byte2;
+    animation-duration: 1s;
+    animation-delay: 5.8s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes byte2 {
+    0% {
+        background-color: rgb(0, 22, 26);
+    }
+
+    50% {
+        background-color: rgb(0, 22, 26);
+        transform: rotateY(180deg);
+    }
+
+    100% {
+        background-color: transparent;
+        transform: rotateY(270deg);
+    }
+}
+
+.alert3,
+.byte1,
+.byte3,
+.dive1,
+.dive3 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: byte1;
+    animation-duration: 1s;
+    animation-delay: 5.9s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes byte1 {
+    0% {
+        background-color: rgb(0, 22, 26);
+    }
+
+    50% {
+        background-color: rgb(0, 22, 26);
+        transform: rotateY(180deg);
+    }
+
+    100% {
+        background-color: transparent;
+        transform: rotateY(270deg);
+    }
+}
+
+
+.alert4 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: robert;
+    animation-duration: 1s;
+    animation-delay: 3.9s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes robert {
+    from {
+        background-color: rgb(0, 22, 26);
+    }
+
+    to {
+        background-color: transparent;
+    }
+}
+
+.groot1,
+.groot3,
+.wrong3,
+.rocket1,
+.rocket3 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: groot1;
+    animation-duration: 1s;
+    animation-delay: 5.7s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes groot1 {
+    0% {
+        background-color: rgb(0, 22, 26);
+    }
+
+    50% {
+        background-color: rgb(0, 22, 26);
+        transform: rotateY(180deg);
+    }
+
+    100% {
+        background-color: transparent;
+        transform: rotateY(270deg);
+    }
+}
+
+.groot2,
+.groot4,
+.wrong2,
+.rocket2,
+.rocket4 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: groot2;
+    animation-duration: 1s;
+    animation-delay: 5.6s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes groot2 {
+    0% {
+        background-color: rgb(0, 22, 26);
+    }
+
+    50% {
+        background-color: rgb(0, 22, 26);
+        transform: rotateY(180deg);
+    }
+
+    100% {
+        background-color: transparent;
+        transform: rotateY(270deg);
+    }
+}
+
+.mongo1,
+.mongo3,
+.contain3 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: mongo1;
+    animation-duration: 1s;
+    animation-delay: 5.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes mongo1 {
+    0% {
+        background-color: rgb(0, 22, 26);
+    }
+
+    50% {
+        background-color: rgb(0, 22, 26);
+        transform: rotateY(180deg);
+    }
+
+    100% {
+        background-color: transparent;
+        transform: rotateY(270deg);
+    }
+}
+
+.mongo2,
+.mongo4,
+.contain2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: mongo2;
+    animation-duration: 1s;
+    animation-delay: 5.4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes mongo2 {
+    0% {
+        background-color: rgb(0, 22, 26);
+    }
+
+    50% {
+        background-color: rgb(0, 22, 26);
+        transform: rotateY(180deg);
+    }
+
+    100% {
+        background-color: transparent;
+        transform: rotateY(270deg);
+    }
+}
+
+.good1,
+.good3,
+.lock1,
+.control1 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: good1;
+    animation-duration: 1s;
+    animation-delay: 5.3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes good1 {
+    0% {
+        background-color: rgb(0, 22, 26);
+    }
+
+    50% {
+        background-color: rgb(0, 22, 26);
+        transform: rotateY(180deg);
+    }
+
+    100% {
+        background-color: transparent;
+        transform: rotateY(270deg);
+    }
+}
+
+.good2,
+.good4,
+.lock4,
+.control4 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: good2;
+    animation-duration: 1s;
+    animation-delay: 5.2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes good2 {
+    0% {
+        background-color: rgb(0, 22, 26);
+    }
+
+    50% {
+        background-color: rgb(0, 22, 26);
+        transform: rotateY(180deg);
+    }
+
+    100% {
+        background-color: transparent;
+        transform: rotateY(270deg);
+    }
+}
+
+.grow1,
+.yoga1,
+.yoga3 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: grow1;
+    animation-duration: 1s;
+    animation-delay: 5.1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes grow1 {
+    0% {
+        background-color: rgb(0, 22, 26);
+    }
+
+    50% {
+        background-color: rgb(0, 22, 26);
+        transform: rotateY(180deg);
+    }
+
+    100% {
+        background-color: transparent;
+        transform: rotateY(270deg);
+    }
+}
+
+.grow2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: grow2;
+    animation-duration: 1s;
+    animation-delay: 4.9s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes grow2 {
+    from {
+        background-color: rgb(0, 22, 26);
+    }
+
+    to {
+        background-color: transparent;
+    }
+}
+
+.grow3 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: grow3;
+    animation-duration: 1s;
+    animation-delay: 4.8s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes grow3 {
+    from {
+        background-color: rgb(0, 22, 26);
+    }
+
+    to {
+        background-color: transparent;
+    }
+}
+
+.grow4,
+.yoga2,
+.yoga4 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: grow4;
+    animation-duration: 1s;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes grow4 {
+    0% {
+        background-color: rgb(0, 22, 26);
+    }
+
+    50% {
+        background-color: rgb(0, 22, 26);
+        transform: rotateY(180deg);
+    }
+
+    100% {
+        background-color: transparent;
+        transform: rotateY(270deg);
+    }
+}
+
+.carry1,
+.carry3 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: carry1;
+    animation-duration: 1s;
+    animation-delay: 6.7s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes carry1 {
+    0% {
+        background-color: rgb(0, 22, 26);
+    }
+
+    50% {
+        background-color: rgb(0, 22, 26);
+        transform: rotateY(180deg);
+    }
+
+    100% {
+        background-color: transparent;
+        transform: rotateY(270deg);
+    }
+}
+
+.carry2,
+.carry4 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: carry2;
+    animation-duration: 1s;
+    animation-delay: 6.6s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes carry2 {
+    0% {
+        background-color: rgb(0, 22, 26);
+    }
+
+    50% {
+        background-color: rgb(0, 22, 26);
+        transform: rotateY(180deg);
+    }
+
+    100% {
+        background-color: transparent;
+        transform: rotateY(270deg);
+    }
+}
+
+.string1 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: string1;
+    animation-duration: 1s;
+    animation-delay: 6.8s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+@keyframes string1 {
+    0% {
+        background-color: rgb(0, 22, 26);
+    }
+
+    50% {
+        background-color: rgb(0, 22, 26);
+        transform: rotateY(180deg);
+    }
+
+    100% {
+        background-color: transparent;
+        transform: rotateY(360deg);
+    }
+}
+
+.care1 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: sold;
+    animation-duration: 1s;
+    animation-delay: 3.2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes sold {
+    from {
+        background-color: rgb(0, 22, 26);
+    }
+
+    to {
+        background-color: transparent;
+    }
+}
+
+.care4 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: silva;
+    animation-duration: 1s;
+    animation-delay: 3.3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes silva {
+    from {
+        background-color: rgb(0, 22, 26);
+    }
+
+    to {
+        background-color: transparent;
+    }
+}
+
+.gone1,
+.gone4,
+.care2,
+.care3 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: gone1;
+    animation-duration: 1s;
+    animation-delay: 6.3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes gone1 {
+    0% {
+        background-color: rgb(0, 22, 26);
+    }
+
+    50% {
+        background-color: rgb(0, 22, 26);
+        transform: rotateY(180deg);
+    }
+
+    100% {
+        background-color: transparent;
+        transform: rotateY(270deg);
+    }
+}
+
+.rishi1,
+.rishi4 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: rishi1;
+    animation-duration: 1s;
+    animation-delay: 6.2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes rishi1 {
+    0% {
+        background-color: rgb(0, 22, 26);
+    }
+
+    50% {
+        background-color: rgb(0, 22, 26);
+        transform: rotateY(180deg);
+    }
+
+    100% {
+        background-color: transparent;
+        transform: rotateY(270deg);
+    }
+}
+
+.rishi2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: sanam;
+    animation-duration: 1s;
+    animation-delay: 3.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes sanam {
+    from {
+        background-color: rgb(0, 22, 26);
+    }
+
+    to {
+        background-color: transparent;
+    }
+}
+
+.rishi3 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: khalid;
+    animation-duration: 1s;
+    animation-delay: 3.4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes khalid {
+    from {
+        background-color: rgb(0, 22, 26);
+    }
+
+    to {
+        background-color: transparent;
+    }
+}
+
+.wrong1 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: wrong1;
+    animation-duration: 1s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes wrong1 {
+    from {
+        background-color: rgb(0, 22, 26);
+    }
+
+    to {
+        background-color: transparent;
+    }
+}
+
+.wrong4 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: wrong4;
+    animation-duration: 1s;
+    animation-delay: 4.1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes wrong4 {
+    from {
+        background-color: rgb(0, 22, 26);
+    }
+
+    to {
+        background-color: transparent;
+    }
+}
+
+.lock3 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: lock3;
+    animation-duration: 1s;
+    animation-delay: 4.6s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes lock3 {
+    from {
+        background-color: rgb(0, 22, 26);
+    }
+
+    to {
+        background-color: transparent;
+    }
+}
+
+.lock2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: lock2;
+    animation-duration: 1s;
+    animation-delay: 4.7s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes lock2 {
+    from {
+        background-color: rgb(0, 22, 26);
+    }
+
+    to {
+        background-color: transparent;
+    }
+}
+
+.among1 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: l1;
+    animation-duration: 1s;
+    animation-delay: 2.4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes l1 {
+    from {
+        background-color: rgb(0, 22, 26);
+    }
+
+    to {
+        background-color: transparent;
+    }
+}
+
+.among2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: l2;
+    animation-duration: 1s;
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes l2 {
+    from {
+        background-color: rgb(0, 22, 26);
+    }
+
+    to {
+        background-color: transparent;
+    }
+}
+
+.among3 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: l3;
+    animation-duration: 1s;
+    animation-delay: 2.6s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes l3 {
+    from {
+        background-color: rgb(0, 22, 26);
+    }
+
+    to {
+        background-color: transparent;
+    }
+}
+
+.among4 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: l4;
+    animation-duration: 1s;
+    animation-delay: 2.7s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes l4 {
+    from {
+        background-color: rgb(0, 22, 26);
+    }
+
+    to {
+        background-color: transparent;
+    }
+}
+
+.contain1 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: contain1;
+    animation-duration: 1s;
+    animation-delay: 4.2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes contain1 {
+    from {
+        background-color: rgb(0, 22, 26);
+    }
+
+    to {
+        background-color: transparent;
+    }
+}
+
+.contain4 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: contain4;
+    animation-duration: 1s;
+    animation-delay: 4.3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes contain4 {
+    from {
+        background-color: rgb(0, 22, 26);
+    }
+
+    to {
+        background-color: transparent;
+    }
+}
+
+.control3 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: control3;
+    animation-duration: 1s;
+    animation-delay: 4.4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes control3 {
+    from {
+        background-color: rgb(0, 22, 26);
+    }
+
+    to {
+        background-color: transparent;
+    }
+}
+
+.control2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 22, 26);
+    animation-name: control2;
+    animation-duration: 1s;
+    animation-delay: 4.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes control2 {
+    from {
+        background-color: rgb(0, 22, 26);
+    }
+
+    to {
+        background-color: transparent;
+    }
+}
